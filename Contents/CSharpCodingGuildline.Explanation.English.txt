@@ -1,0 +1,115 @@
+C# Coding Guidelines 2025 Commentary Transcript
+
+Speaker 1
+Today, we're going to dive deep into the Qiita article you shared - C# Coding Guidelines 2024. From naming conventions to coding standards and practices - it's quite comprehensive content. The purpose is clearly stated as productivity improvement.
+
+Speaker 2
+Yes, that's right. By following consistent rules, code becomes more readable and as a result, bugs are reduced. Maintenance becomes easier too. It's positioned as a guideline for reducing technical debt.
+
+Speaker 1
+"Even code you write yourself becomes like someone else's code over time" - that really hits home. So, let's look at some particularly important points from this guideline together. Starting with naming conventions.
+
+Speaker 2
+Yes. The basic PascalCase and camelCase are familiar, but what stands out is the recommendation to add underscores to private fields.
+
+Speaker 1
+Ah, this. This is a point that's changed somewhat from previous Microsoft guidelines, isn't it?
+
+Speaker 2
+That's right. The benefit mentioned is that it makes the distinction between field variables and parameter variables visually clear.
+
+Speaker 1
+I see. Easier identification.
+
+Speaker 2
+Yes. Similarly, omitting "this." is also discouraged.
+
+Speaker 1
+Oh, "this." as well?
+
+Speaker 2
+Yes. It's said that explicitly stating it improves readability. This is also a point where team consistency can be achieved through configuration.
+
+Speaker 1
+I see. Also for boolean types, adding "is", "has", "can", avoiding double negatives, making collections plural - there are quite a few specific rules like these.
+
+Speaker 2
+And especially for double negatives, "if isValid" is more intuitive than "if not isInvalid", right?
+
+Speaker 1
+Certainly.
+
+Speaker 2
+The accumulation of these detailed rules reduces what you might call cognitive load when reading code. Next, layout rules are also interesting.
+
+Speaker
+Hmm.
+
+Speaker 2
+Especially the use of "var".
+
+Speaker
+Ah.
+
+Speaker 1
+Previously, it was recommended when the type was obvious from the right side, wasn't it?
+
+Speaker 2
+That's right. In this article, it's changed to "use actively".
+
+Speaker 1
+Hmm, that's quite a big change. The reason would be to reduce verbosity, I suppose?
+
+Speaker 2
+I suppose so. The code becomes cleaner. Recent C# has quite smart type inference. Of course, it's not "var" for everything - you should properly show the type in situations where readability would be compromised. But the basic flow seems to be going with "var".
+
+Speaker 1
+I see. Also, not omitting braces in if statements. This is subtle but certainly important when you think about it.
+
+Speaker 2
+And it can prevent accidental issues during merges.
+
+Speaker 1
+Right. Also, file-scoped namespaces from C# 10 - this also makes things much cleaner by reducing indentation.
+
+Speaker 2
+Yes, that's nice. Even just having one less level of nesting makes a big difference in readability, especially for vertically long files. It's a good example of incorporating the latest features to keep code clean.
+
+Speaker 1
+Next, the Practices & Idioms section. Early returns are mentioned here.
+
+Speaker 2
+Ah, guard clauses. Check preconditions at the beginning of methods, and return immediately if they're not met.
+
+Speaker 1
+Right. This way, the main processing doesn't get deeply nested.
+
+Speaker 2
+Exactly. The code flow becomes linear and more readable. You can focus on the main processing. Then there's magic numbers - not writing meaningless numbers directly.
+
+Speaker 1
+Using constants or meaningfully named variables. This is basic, but thoroughness is important.
+
+Speaker 2
+Yes. And this is also important - resource management, file access, DB connections.
+
+Speaker 1
+Ah, using statements. Or using declarations.
+
+Speaker 2
+That's right. Classes implementing IDisposable need to have Dispose called reliably. Using ensures that cleanup processing is guaranteed even if exceptions occur.
+
+Speaker 1
+Neglecting this can lead to resource leaks and other troublesome problems.
+
+Speaker 2
+Yes. Applications can become unstable and various other issues can arise.
+
+Speaker 1
+Hmm. Looking at these guideline points like this, even though each one might seem like a small rule, overall they have a huge impact on code quality, maintainability, and team productivity.
+
+Speaker 2
+Exactly right. Consistent style can be said to be consideration for your future self and other developers. Following conventions prevents many problems and ultimately reduces technical debt - the opening words really resonate again.
+
+Speaker 1
+That's right. Now, there are really many of these conventions, but let's imagine this: if a project you're involved in had developed habits of not following some of these small conventions - for example, not using "using" statements much - what kind of major or unexpected troubles could that lead to in the future? Thinking about this concretely might be a good opportunity to reaffirm the importance of these conventions.
