@@ -27,5 +27,6 @@ The **C# Coding Guidelines** aims to promote readability, consistency, and teamw
 
 ## Additional Resources | 追加リソース
 
-- [Audio Commentary (Japanese)](Contents/CSharpCodingGuildline.AudioCommentary.Japanese.mp3)
-- [Audio Commentary Transcript](Contents/CSharpCodingGuildline.AudioCommentary.English.txt)
+- [C# Coding Guidelines 2025 Audio Commentary (Japanese) | C# コーディング ガイドライン 2025 音声解説](Contents/CSharpCodingGuildline.AudioCommentary.Japanese.mp3)
+- [C# Coding Guidelines 2025 Audio Commentary Transcript (Japanese) | C# コーディング ガイドライン 2025 音声解説 トランスクリプト](Contents/CSharpCodingGuildline.AudioCommentary.Japanese.txt)
+- [C# Coding Guidelines 2025 Audio Commentary Transcript (English)](Contents/CSharpCodingGuildline.AudioCommentary.English.txt)
