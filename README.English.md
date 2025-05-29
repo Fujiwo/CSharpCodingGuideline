@@ -1,3 +1,5 @@
+[Japanese Version is here.](README.md)
+
 # C# Coding Guidelines (2025 Edition)
 
 ## Overview
