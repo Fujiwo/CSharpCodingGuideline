@@ -202,5 +202,5 @@
 
 ### 10\. 音声による解説
 
-- [C# コーディング ガイドライン 2025 音声解説](Contents/C%23%20コーディング%20ガイドライン%202025%20解説.mp3)
-- [C# コーディング ガイドライン 2025 音声解説 トランスクリプト](Contents/C%23%20コーディング%20ガイドライン%202025%20解説.txt)
+- [C# コーディング ガイドライン 2025 音声解説](Contents/CSharpCodingGuildline.Explanation.mp3)
+- [C# コーディング ガイドライン 2025 音声解説 トランスクリプト](CSharpCodingGuildline.Explanation.txt)
