@@ -202,5 +202,5 @@ This guideline can be used as a starting point. It's most important to flexibly 
 
 ### 10\. Audio Commentary
 
-- [C# Coding Guidelines 2025 Audio Commentary](Contents/CSharpCodingGuildline.Explanation.mp3)
+- [C# Coding Guidelines 2025 Audio Commentary (Japanese)](Contents/CSharpCodingGuildline.Explanation.mp3)
 - [C# Coding Guidelines 2025 Audio Commentary Transcript](Contents/CSharpCodingGuildline.Explanation.English.txt)
