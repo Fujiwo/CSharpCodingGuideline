@@ -1,3 +1,5 @@
+[English Version is here.](README.English.md)
+
 # C# コーディング ガイドライン (2025年度版)
 
 ## 概要
