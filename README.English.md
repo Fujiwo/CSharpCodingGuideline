@@ -193,7 +193,7 @@ Comments are used to convey intent - not what the code is trying to do, but why 
 This guideline references the following materials:
 
 - [.NET Coding Conventions - C# | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-- [C# CODING GUIDELINES 2024 #Programming - Qiita](https://qiita.com/Ted-HM/items/1d4ecdc2a252fe745871)
+- [C# CODING GUIDELINES 2024 #Programming - Qiita (Japanese)](https://qiita.com/Ted-HM/items/1d4ecdc2a252fe745871)
 - [C# at Google Style Guide | styleguide](https://google.github.io/styleguide/csharp-style.html)
 
 These materials provide more detailed information about C# coding styles and practices.
